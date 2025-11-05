@@ -1,19 +1,4 @@
 def mode(numbers):
-  """Return a mode (most frequent value) from an iterable of numbers.
-
-  The homework definition allows any of the equally frequent values to be
-  returned when there are multiple modes.
-
-  >>> mode([4, 5, 8, 3, 4, 2, 4, 5, 5, -2]) in (4, 5)
-  True
-  >>> mode([7, 7, 7])
-  7
-  >>> mode([-1, -1, -2, -3, -1, -2])
-  -1
-  >>> mode([1])
-  1
-  """
-  """Return a mode from the list of numbers."""
   if not numbers:
     return None 
 
